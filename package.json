@@ -5,6 +5,7 @@
   "author": "Marius Andra",
   "license": "MIT",
   "main": "lib/react/index.js",
+  "typings": "index.d.ts",
   "jsnext:main": "src/index.js",
   "repository": {
     "type": "git",
