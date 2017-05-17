@@ -33,6 +33,7 @@
     "lib",
     "src",
     "infact.js",
+    "index.d.ts",
     "inferno.js",
     "react.js",
     "LICENSE.md",
