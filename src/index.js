@@ -68,7 +68,7 @@ export default class Map extends Component {
 
   static defaultProps = {
     animate: true,
-    zoomOnMoouseWheel: true
+    zoomOnMouseWheel: true
   }
 
   constructor (props) {
@@ -908,7 +908,7 @@ export default class Map extends Component {
   }
 
   render () {
-    const { width, height, zoomOnMoouseWheel } = this.props
+    const { width, height, zoomOnMouseWheel } = this.props
 
     const containerStyle = {
       width: width,
@@ -922,7 +922,7 @@ export default class Map extends Component {
     return (
       <div style={containerStyle}
            ref={this.setRef}
-           onWheel={zoomOnMoouseWheel ? this.handleWheel : undefined}>
+           onWheel={zoomOnMouseWheel ? this.handleWheel : undefined}>
         {this.renderTiles()}
         {this.renderOverlays()}
         {this.renderAttribution()}

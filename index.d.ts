@@ -19,6 +19,7 @@ export interface MapProps extends React.Props<any> {
   animate?: boolean;
   attribution?: (() => string) | boolean;
   height: number;
+  zoomOnMouseWheel?: boolean;
   onClick: (event: React.MouseEvent<any>) => void;
   provider: (x: number, y: number, z: number) => string;
   onBoundsChanged: (stuff: {center: number[], zoom: number, bounds: GeoBounds, initial: boolean}) => void;
